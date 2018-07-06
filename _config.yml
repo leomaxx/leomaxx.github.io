@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Z.W. Miller
 tagline:             A Moderately Okay Data Science Blog
-url:                 http://leomaxx.github.io/
+url:                 http://songlin.github.io/
 paginate:            2
 baseurl:             ""
 
@@ -18,7 +18,7 @@ sass:
 # About/contact
 author:
   name:              Songlin Qing
-  url:               https://github.com/leomaxx
+  url:               https://github.com/songlin
   email:             qing0001@gmail.com
 
 # Custom vars
