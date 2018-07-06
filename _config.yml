@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Z.W. Miller
 tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.com
+url:                 http://leomaxx.github.io/
 paginate:            2
 baseurl:             ""
 
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
-  url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  name:              Songlin Qing
+  url:               https://github.com/leomaxx
+  email:             qing0001@gmail.com
 
 # Custom vars
 version:             2.0.0
