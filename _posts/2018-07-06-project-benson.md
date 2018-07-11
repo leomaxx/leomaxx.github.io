@@ -38,15 +38,26 @@ This number is then mutiplied with the percentatge of people with household inco
 Here are the top 10 stations sorted by target population (traffic with household income bewteen 150k and 200k)
 ![top 10 stations by target population](../public/top10tragettraffic.png)
 
-
-
+Our of the top 10 stations, we would like to recommend 3 stations for the street teams to cover. We are also interested in finding out if the order of top 3 stations stay the same throughout the week. Here is a plot of traget traffic of top 3 stations by day of week. 
+![top 3 stations by target population](../public/dayofweek.png)
+It turned out to be the order stays the same throughout all days of week.
 
 ### Conclusion
-### Recommendations
+According to the analysis, we recommend the street teams to cover the following 3 stations:
+* 34 Street Penn Station
+* Grand Central Station - 42 Street
+* 42 Street - Port Authority
+
+### Future works
+Due to time constraints, we only leverage household income to predict the target traffic of a station. If more time is given, we would explore the other factors like marital status, age, and religion.
+It is likely that people who work for tech companies are more willing to support this cause. We can map the stations to major Tech companies and send the street teams close to tech companies.
+If the street teams would work for multiple days, there is opportunity to conduct an A/B test to validate which predictors are most prevalent in attracting supporters. These information could be useful in future fundraing campaigns.
+
+
 ### Reflections
 Through this project, I learnt what's required to not only survive, but to make the most of the bootcamp: 
 
 1. Start early, as things move really fast
 2. Ready to learn new techniques along the way
-3. Collaborate with team members and learn from each other
+3. Collaborate with team members, distribute workload, and learn from each other
 
