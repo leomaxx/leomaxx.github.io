@@ -31,15 +31,15 @@ The American Community Survey census data has a nice breakdown of household inco
 We interpolated entry data at 6AM and 12PM for every turnstile reading and aggregated them by station and date. From there, morning traffic data is calculated by simply substracting the numbers. <br>
 
 Here are the top 10 stations sorted by morning traffic:
-![top 10 stations by morning traffic](../public/top10traffic.png)
+![top 10 stations by morning traffic](https://leomaxx.github.io/public/top10traffic.png)
 
 This number is then mutiplied with the percentatge of people with household income between 150k and 200k in the same zip code, to derive the number of target population among the morning riders of the station. 
 
 Here are the top 10 stations sorted by target population (traffic with household income bewteen 150k and 200k)
-![top 10 stations by target population](../public/top10tragettraffic.png)
+![top 10 stations by target population](https://leomaxx.github.io/public/top10tragettraffic.png)
 
 Our of the top 10 stations, we would like to recommend 3 stations for the street teams to cover. We are also interested in finding out if the order of top 3 stations stay the same throughout the week. Here is a plot of traget traffic of top 3 stations by day of week. 
-![top 3 stations by target population](../public/dayofweek.png)
+![top 3 stations by target population](https://leomaxx.github.io/public/dayofweek.png)
 It turned out to be the order stays the same throughout all days of week.
 
 ### Conclusion
