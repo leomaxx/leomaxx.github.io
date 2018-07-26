@@ -30,7 +30,7 @@ The remaining two multi-categorical variabled were dummified, binary variables c
 
 ## Exploratory Data Analysis
 The used car prices, like price in other domains, are not normally distributed but positively skewed. As a standard practice, I have applied logarithmic transformation of the price to make it more normal.
-![price_prediction](../public/price_transformation.png)
+![price_prediction](https://leomaxx.github.io/public/price_transformation.png)
 
 When comparing the price among makes, it is clear that different makes have vastly different price ranges. Broadly speaking, the cars can be divided into three classes: luxury cars (Porsche, BMW..etc), Mid-range cars (Toyota, Ford..etc), Budget cars
 (Mercury, Pontiac, Smart).
