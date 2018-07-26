@@ -54,14 +54,14 @@ After reaching the final model, I came back to review my original questions.
 - What are the dominate features that determine the price?
 
 The top three variables that are positively correlated with price are:
-   **Category: Porsche
-   **Category: Land
-   **Binary: Luxury cars
+   ** Category: Porsche **
+   ** Category: Land **
+   ** Binary: Luxury cars **
   
 The top three variables that are negatively correlated with price are:
-   **Category: Dodge
-   **Binary: Budget cars
-   **Binary: Manual cars
+   ** Category: Dodge **
+   ** Binary: Budget cars **
+   ** Binary: Manual cars **
 
 - Which make is most perferred in the used car market?
 
