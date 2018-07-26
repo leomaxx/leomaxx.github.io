@@ -46,7 +46,7 @@ Models were built based on training data and selected based on cross validation 
 The score shows the predicted price is about +-14% different from the actual price.
 
 Residual plot seems reasonabley random. 
-![residual plot](../public/final-model-residual.png)
+![residual plot](https://leomaxx.github.io/public/final-model-residual.png)
 
 ## Observations
 After reaching the final model, I came back to review my original questions.
@@ -67,7 +67,7 @@ The top three variables that are negatively correlated with price are:<br>
 
 Excluding the luxury and budget cars, the midrange cars have different coefficients in the last model. Based on maginitude and sign of the coefficient, I've placed the make in the diagram below.
 
-![correlation with make](../public/brand_price_correlation.png)
+![correlation with make](https://leomaxx.github.io/public/brand_price_correlation.png)
 
 It seems Asian makes, especially the Japanese cars, are positively correlated with price. Not suprisingly, the [2017 consumer report](https://www.consumerreports.org/car-reliability-owner-satisfaction/car-brands-reliability-how-they-stack-up/) on car reliability survey, the ranking of these brands follow similar order (rank is marked as numbers in the pucture).
 
@@ -80,6 +80,6 @@ With the final model, I am able to predict the price. This is especially useful,
 Comparing the predicted price with actual price, and I consider the postings that are under the prediction values as bargains. Specifically, I calculated the differences and reverse sorted the listings. As safety is my concern, I chose the number 1 make Toyota. Eventually, I browsed the top listings and find the following posting pretty attractive.
 https://www.carmax.com/car/16058595
 
-![camry](../public/camry.png)
+![camry](https://leomaxx.github.io/public/camry.png)
 
 When the listing was scraped, the prices was $15998, which is a pretty good deal. **And it is a hybrid!**
