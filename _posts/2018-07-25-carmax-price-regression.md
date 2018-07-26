@@ -1,3 +1,8 @@
+---
+layout: post
+title: Carmax - Used car price regression 
+---
+
 4 weeks ago, I moved out of campus to stay with my family. When the new quarter starts in September, I will have to drive 20 miles to school. Problem is, I don't have a car yet. In fact, I've never owned a car, nor do I know much about cars. Since I don't have much spare money to spend on a transporation tool, I decided to get a used car as my first car.<br>
 
 *Carmax* is the largest retailer of used cars in United States. Their cars are verified to function well and sold with warranties, which is perfect for novice like me. Since I have no idea of the used car market and I am reviewing linear regression in Metis data science bootcamp, I decided to scrap some data from carmax.com and perform some analysis. Specifically, I would like to understand:
