@@ -34,7 +34,7 @@ The used car prices, like price in other domains, are not normally distributed b
 
 When comparing the price among makes, it is clear that different makes have vastly different price ranges. Broadly speaking, the cars can be divided into three classes: luxury cars (Porsche, BMW..etc), Mid-range cars (Toyota, Ford..etc), Budget cars
 (Mercury, Pontiac, Smart).
-![price by make](../public/make-price-boxplot.png)
+![price by make](https://leomaxx.github.io/public/make-price-boxplot.png)
 
 ## Model building
 After expanding the categorical variable into dummy variables and adding some polynomial and interactive terms, the number of variables increased drastically to over 100. In addition, I've added three categorical variables: luxury cars, budget cars, and mileage over 100k miles. Lasso regularization was applied to reduce the number of variables to 49 variables. 
