@@ -54,16 +54,17 @@ After reaching the final model, I came back to review my original questions.
 - What are the dominate features that determine the price?
 
 The top three variables that are positively correlated with price are:
-  * Category: Porsche
-  * Category: Land
-  * Binary: Luxury cars
+   **Category: Porsche
+   **Category: Land
+   **Binary: Luxury cars
   
 The top three variables that are negatively correlated with price are:
-  * Category: Dodge
-  * Binary: Budget cars
-  * Binary: Manual cars
+   **Category: Dodge
+   **Binary: Budget cars
+   **Binary: Manual cars
 
 - Which make is most perferred in the used car market?
+
 Excluding the luxury and budget cars, the midrange cars have different coefficients in the last model. Based on maginitude and sign of the coefficient, I've placed the make in the diagram below.
 
 ![correlation with make](../public/brand_price_correlation.png)
@@ -71,9 +72,11 @@ Excluding the luxury and budget cars, the midrange cars have different coefficie
 It seems Asian makes, especially the Japanese cars, are positively correlated with price. Not suprisingly, the [2017 consumer report](https://www.consumerreports.org/car-reliability-owner-satisfaction/car-brands-reliability-how-they-stack-up/) on car reliability survey, the ranking of these brands follow similar order (rank is marked as numbers in the pucture).
 
 - What is my negotiation baseline?
+
 With the final model, I am able to predict the price. This is especially useful, as there are a lot of postings on carmax website without price.
 
 - How to get a good deal?
+
 Comparing the predicted price with actual price, and I consider the postings that are under the prediction values as bargains. Specifically, I calculated the differences and reverse sorted the listings. As safety is my concern, I chose the number 1 make Toyota. Eventually, I browsed the top listings and find the following posting pretty attractive.
 https://www.carmax.com/car/16058595
 
